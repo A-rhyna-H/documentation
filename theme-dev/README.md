@@ -173,7 +173,7 @@ These are provided by the Plugin (or Xposed module). They theme many things at o
 | primary_dark_400 | "Message #..." color, timestamps, user statuses, UserDetails texts, TextInput placeholders (chat, searchbars), Guild/Category name in search tab, new day divider lines in chat |
 | primary_dark_660 | Chat Box, Gifts and Attachment icon backgrounds |  
 | primary_dark_800 | The Bottom Bar that houses Friends, Search, Mentions, and Profile Picture icons |
-| primary_dark_700 | Server List |
+| primary_dark_700 | Server List background |
 
 
 
@@ -218,7 +218,7 @@ These are provided by the Plugin (or Xposed module). They theme many things at o
 
 | String          | Purpose                 |
 | ---------------- |:-----------------------:|
-| drawable_button_grey | unread messages button |
+| drawable_button_grey | floating "new unreads" button background |
 | drawable_overlay_channels_selected_dark | Selected channel color in channel list for dark mode |
 | drawable_overlay_channels_pressed_dark | Pressed channel color in channel list for dark mode | 
 | item_background_material | mostly used for the top bar(where the name of the plugin, version and author name is written) |
@@ -228,8 +228,8 @@ These are provided by the Plugin (or Xposed module). They theme many things at o
 | drawable_voice_user_background_speaking | Speaking Background |
 | drawable_voice_sensitivity_progress | Voice Sensitivity Bar in the Settings |
 | ic_ban_red_24dp | Ban Icon Color |
-| ic_sidebar_notications_off_dark_24dp | Notification Icon in the Sidebar when the channel is muted |
-| ic_sidebar_notications_on_dark_24dp | Notification Icon in the Sidebar when the channel isn't muted |
+| ic_sidebar_notifications_off_dark_24dp | Notification Icon in the Sidebar when the channel is muted |
+| ic_sidebar_notifications_on_dark_24dp | Notification Icon in the Sidebar when the channel isn't muted |
 | ic_thread | Threads Icon Color located in the Sidebar |
 | ic_channel_topic_ellipsis_dark | Themes the expand button in the channel sidebar |
 | ic_content_copy_white_a60_24dp | Copy id Icon |
@@ -250,7 +250,7 @@ These are provided by the Plugin (or Xposed module). They theme many things at o
 | String          | Purpose                 |
 | ---------------- |:-----------------------:|
 | ic_channel_text | Regular text channel |
-| ic_channel_locked | Locked Channel |
+| ic_channel_text_locked | Locked Channel |
 | ic_channel_nsfw | NSFW Channel |
 | ic_channel_announcements | Regular Announcements channel |
 | ic_channel_announcements_locked | Locked Announcements channel |
